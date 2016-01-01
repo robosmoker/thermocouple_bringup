@@ -35,9 +35,6 @@ def c_to_f(c):
         return c * 9.0 / 5.0 + 32.0
 
 
-# Uncomment one of the blocks of code below to configure your Pi or BBB to use
-# software or hardware SPI.
-
 # Raspberry Pi software SPI configuration.
 CLK = 11
 CS  = [16, 20, 21]
